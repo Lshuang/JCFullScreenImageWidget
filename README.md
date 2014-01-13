@@ -21,6 +21,8 @@ JCFullScreenImageWidget
 3、需注意的地方：
 
 - 重用时可用clear函数（ - (void)clearHost; ）清空。但函数内会将宿主视图的全部手势清除！
+
+
 ------ 用法 ------
 
 以Demo为例：
