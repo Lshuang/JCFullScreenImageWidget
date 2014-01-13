@@ -47,4 +47,10 @@ _objFullScreenMultiImg = [[JCFullScreenImgWidget alloc] init];
                     multiLargeImgURLArr:arrLargeImgURL
                       remoteImgListOper:_objImgListOper];
                       
+------ 感谢 ------
+
+下载进度条使用了 DACircularProgress 
+https://github.com/danielamitay/DACircularProgress
+
+
                       
