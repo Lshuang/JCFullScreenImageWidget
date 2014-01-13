@@ -35,6 +35,7 @@ _objFullScreenSingleImg = [[JCFullScreenImgWidget alloc] init];
 [_objFullScreenSingleImg setHostImgView:_imgViewSingleImg
                       singleLargeImgURL:_strSingleLargeImgURL
                       remoteImgListOper:_objImgListOper];
+                      
 2、多图：
 
 创建一个显示九宫格缩略图的视图，为各个子视图添加全屏大图控件。
@@ -45,3 +46,5 @@ _objFullScreenMultiImg = [[JCFullScreenImgWidget alloc] init];
 [_objFullScreenMultiImg setHostImgViews:[_mosaicImgView allImgViews]
                     multiLargeImgURLArr:arrLargeImgURL
                       remoteImgListOper:_objImgListOper];
+                      
+                      
